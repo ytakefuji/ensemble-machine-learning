@@ -1,0 +1,31 @@
+import pandas as pd
+import statsmodels.api as sm
+from sklearn.metrics import r2_score
+data=pd.read_csv('ice.csv')
+x=data[['temp','street']]
+x=sm.add_constant(x)
+y=data['ice']
+est1=sm.RLM(y,x,M=sm.robust.norms.HuberT()).fit()
+est2=sm.RLM(y,x,M=sm.robust.norms.LeastSquares()).fit()
+est3=sm.RLM(y,x,M=sm.robust.norms.AndrewWave()).fit()
+est4=sm.RLM(y,x,M=sm.robust.norms.RamsayE()).fit()
+est5=sm.RLM(y,x,M=sm.robust.norms.TrimmedMean()).fit()
+est6=sm.RLM(y,x,M=sm.robust.norms.Hampel()).fit()
+r2=r2_score(y,est1.predict(x))
+print('R-squared:',r2)
+print(est1.summary2())
+r2=r2_score(y,est2.predict(x))
+print('R-squared:',r2)
+print(est2.summary2())
+r2=r2_score(y,est3.predict(x))
+print('R-squared:',r2)
+print(est3.summary2())
+r2=r2_score(y,est4.predict(x))
+print('R-squared:',r2)
+print(est4.summary2())
+r2=r2_score(y,est5.predict(x))
+print('R-squared:',r2)
+print(est5.summary2())
+r2=r2_score(y,est6.predict(x))
+print('R-squared:',r2)
+print(est6.summary2())
