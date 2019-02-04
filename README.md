@@ -5,5 +5,7 @@ https://www.amazon.co.jp/%E8%B6%85%E5%AE%9F%E8%B7%B5-%E3%82%A2%E3%83%B3%E3%82%B5
 Throught the book, the same dataset(ice.csv) is used for introducing conventional statistics methods and ensemble machine learning.
 The file ice.csv is composed of four parameters (date, ice, temp, street).
 The parameter ice represents sales of the ice cream of the date where temp and street indicate the highest temperature of the day and the number of pedestrians respectively.
+
 The book can be practiced based on Python2.7. You may be able to use Python3.7 with slight modifications.
+The algorithms of the conventional statistics methods are: OLS (ordinary least square: ols.py), 
 
