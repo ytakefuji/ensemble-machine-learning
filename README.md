@@ -7,5 +7,5 @@ The file ice.csv is composed of four parameters (date, ice, temp, street).
 The parameter ice represents sales of the ice cream of the date where temp and street indicate the highest temperature of the day and the number of pedestrians respectively.
 
 The book can be practiced based on Python2.7 on Windows 10. The programs shown here can run on Linux and MacOS. You may be able to use Python3.7 with slight modifications.
-The algorithms of the conventional statistics methods are: OLS (ordinary least square: ols.py and olsGUI.py), GLS (generalized least square: gls.py), WLS (weighted least square: wls.py), RLM (robust linear model: rlm.py), GLSAR (feasible generalized least square with autocorrelated: glsar.py), MixedLM (mixed linear model: lmem.py), 
+The algorithms of the conventional statistics methods are: OLS (ordinary least square: ols.py and olsGUI.py), GLS (generalized least square: gls.py), WLS (weighted least square: wls.py), RLM (robust linear model: rlm.py), GLSAR (feasible generalized least square with autocorrelated: glsar.py), MixedLM (mixed linear model: lmem.py), QuantReg (quantile regression: quantreg.py), 
 
