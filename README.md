@@ -11,4 +11,8 @@ The algorithms of the conventional statistics methods are: OLS (ordinary least s
 
 Machine learning methods include SVR (support vector regression: svr.py), KRR (kernel ridge regression: krr.py), Naive_Bayes (GaussianNB: naive_bayes.py, MultinomialNB: naive_bayesM.py, BernoulliNB: naive_bayesB.py), DecisionTreeClassifier: decisiontreeclass.py, Kneighbors Regression: knighborsreg.py, KnighborsClassifier: kneighborsclass.py, RadiusNeighborsClassifier: radiusneighbors.py, SGDC (stochastic gradient decendent classifier: sgdc_rbfk.py), Neural network framework (keras: knn.py).
 
-Ensemble methods include Adaboost (classifier: adaboostclass.py, regressor: adaboostreg.py), RandomForest (classifier: randomforestclass.py, regressor: randomforestreg.py), ExtraTrees (classifier: extratreesclass.py, regressor: extratreesreg.py), GradientBoosting (classifier: gradboostclass.py, regressor: gradboostreg.py), Bagging (classifier: bagging.py, ExtraTrees: bagging_extratreesclass.py). VotingClassifier
+Ensemble methods include Adaboost (classifier: adaboostclass.py, regressor: adaboostreg.py), RandomForest (classifier: randomforestclass.py, regressor: randomforestreg.py), ExtraTrees (classifier: extratreesclass.py, regressor: extratreesreg.py), GradientBoosting (classifier: gradboostclass.py, regressor: gradboostreg.py), Bagging (classifier: bagging.py, ExtraTrees: bagging_extratreesclass.py). 
+
+Predicting default of credit card clients is solved by credit_extratreesclass.py.
+
+VotingClassifier is demonstrated by classifying red wine qualities with voting1.py (extratrees+randomforest), voting2.py (extratrees+ randomforest+ gradientboosting), voting3.py (extratrees+ randomforest+ gradientboosting+ gaussianNB), voting4.py (extratrees+randomforest+gradientboosting+gaussianNB+Kneighbors).
