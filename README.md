@@ -1,6 +1,9 @@
 # ensemble-machine-learning
-This helps readers of a book entitled "Ensemble machine learning" published in Japanese from Kindaikagakusha.
-Throught the book, dataset(ice.csv) is used for introducing ensemble machine learning.
+This helps readers of a book entitled "Ensemble machine learning" published in Japanese from Kindaikagakusha:
+https://www.amazon.co.jp/%E8%B6%85%E5%AE%9F%E8%B7%B5-%E3%82%A2%E3%83%B3%E3%82%B5%E3%83%B3%E3%83%96%E3%83%AB%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92-%E6%AD%A6%E8%97%A4-%E4%BD%B3%E6%81%AD/dp/4764905299/ref=sr_1_1?
+
+Throught the book, the same dataset(ice.csv) is used for introducing conventional statistics methods and ensemble machine learning.
 The file ice.csv is composed of four parameters (date, ice, temp, street).
-ice is equivalent to sales of the ice cream of the date where temp and street indicate the highest temperature of the day and the number of pedestrians respectively.
-This shows conventional statistics methods and ensemble methods respectively.
+The parameter ice represents sales of the ice cream of the date where temp and street indicate the highest temperature of the day and the number of pedestrians respectively.
+The book can be practiced based on Python2.7. You may be able to use Python3.7 with slight modifications.
+
