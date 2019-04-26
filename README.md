@@ -1,6 +1,10 @@
 # ensemble-machine-learning
-This helps readers of a book entitled "Ensemble machine learning" published in Japanese from Kindaikagakusha:
-https://www.amazon.co.jp/%E8%B6%85%E5%AE%9F%E8%B7%B5-%E3%82%A2%E3%83%B3%E3%82%B5%E3%83%B3%E3%83%96%E3%83%AB%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92-%E6%AD%A6%E8%97%A4-%E4%BD%B3%E6%81%AD/dp/4764905299/ref=sr_1_1?
+This helps readers of the following books for updated source programs:
+1. https://www.amazon.co.jp/%E8%B6%85%E5%AE%9F%E8%B7%B5-%E3%82%A2%E3%83%B3%E3%82%B5%E3%83%B3%E3%83%96%E3%83%AB%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92-%E6%AD%A6%E8%97%A4-%E4%BD%B3%E6%81%AD/dp/4764905299/ref=sr_1_1?
+2. https://www.amazon.co.jp/AVR%E3%83%9E%E3%82%A4%E3%82%B3%E3%83%B3%E3%81%A8Python%E3%81%A7%E3%81%AF%E3%81%98%E3%82%81%E3%82%88%E3%81%86-IoT%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E8%A8%AD%E8%A8%88%E3%83%BB%E5%AE%9F%E8%A3%85-%E6%AD%A6%E8%97%A4-%E4%BD%B3%E6%81%AD/dp/4274217906/ref=sr_1_3?
+3. https://www.amazon.cn/dp/B07M5XDTD2/ref=sr_1_1?__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&keywords=yoshiyasu+takefuji&qid=1556317403&s=gateway&sr=8-1
+4. https://www.kingstone.com.tw/new/basic/2013120498099?kmcode=2013120498099&lid=book_new_flow&actid=book_flow
+
 
 Throught the book, the same dataset(ice.csv) is used for introducing conventional statistics methods and ensemble machine learning.
 The file ice.csv is composed of four parameters (date, ice, temp, street).
